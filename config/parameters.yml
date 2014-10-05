@@ -1,0 +1,15 @@
+%YAML:1.0
+
+particle_count: 500
+laser_hit: 0.89
+laser_random:  0.01
+laser_max:  0.1
+laser_sigma: 0.05
+translational_stddev: 1.0 # meters error per 1 meter moved
+angular_stddev: 0.8 # radians error per 1 radian moved
+resample_coefficient: 1.2
+
+pixel_radius: 2 # radius in pixels of particle visualizations
+
+map_file: "data/wean.dat"
+data_file: "data/robotdata1.log"
